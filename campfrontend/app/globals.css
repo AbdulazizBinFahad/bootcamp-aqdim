@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.dilg{
+    font-feature-settings: 'dlig' on;
+}
