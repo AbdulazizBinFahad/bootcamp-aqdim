@@ -10,7 +10,7 @@ export default function Header() {
                 <Image src={"/logo.svg"} width={16} height={16} alt="Logo"/>
                 <h1 className="font-bold text-[18px] mr-[32px] ml-[16px]">ShopAll</h1>
             </Link>
-            <div className="flex gap-[36px] items-center">
+            <div className="hidden sm:flex gap-[36px] items-center">
                 <Link className="font-medium text-[14px]" href={"/"}>Home</Link>
                 <Link className="font-medium text-[14px]" href={"/about"}>About Us</Link>
                 <Link className="font-medium text-[14px]" href={"/contact"}>Contact</Link>
